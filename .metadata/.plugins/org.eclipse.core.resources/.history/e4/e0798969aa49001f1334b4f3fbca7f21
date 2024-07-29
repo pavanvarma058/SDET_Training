@@ -1,0 +1,11 @@
+package day8;
+import java.io.*;
+
+public class TotalFileMerge {
+
+	public static void main(String[] args) {
+		// java  program to merge data from all files present in a folder into a new file
+		
+	}
+
+}
