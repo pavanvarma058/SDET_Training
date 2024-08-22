@@ -1,79 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T17:25:27 IST" name="Default suite" finished-at="2024-08-21T17:25:29 IST" duration-ms="2023">
+  <suite started-at="2024-08-22T10:39:05 IST" name="Default suite" finished-at="2024-08-22T10:39:05 IST" duration-ms="351">
     <groups>
     </groups>
-    <test started-at="2024-08-21T17:25:27 IST" name="Default test" finished-at="2024-08-21T17:25:29 IST" duration-ms="2023">
-      <class name="WiproTraining.Demo1_TestNG_DataProvider">
-        <test-method signature="test1(int)[pri:0, instance:WiproTraining.Demo1_TestNG_DataProvider@3f6b0be5]" started-at="2024-08-21T17:25:27 IST" name="test1" data-provider="tdata" finished-at="2024-08-21T17:25:27 IST" duration-ms="134" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-08-22T10:39:05 IST" name="Default test" finished-at="2024-08-22T10:39:05 IST" duration-ms="351">
+      <class name="WiproTraining.Demo02_TestNG_Priority">
+        <test-method signature="test01()[pri:0, instance:WiproTraining.Demo02_TestNG_Priority@bd4dc25]" started-at="2024-08-22T10:39:05 IST" name="test01" finished-at="2024-08-22T10:39:05 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test1(int)[pri:0, instance:WiproTraining.Demo1_TestNG_DataProvider@3f6b0be5]" started-at="2024-08-21T17:25:27 IST" name="test1" data-provider="tdata" finished-at="2024-08-21T17:25:27 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:0, instance:WiproTraining.Demo02_TestNG_Priority@bd4dc25]" started-at="2024-08-22T10:39:05 IST" name="test02" finished-at="2024-08-22T10:39:05 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test1(int)[pri:0, instance:WiproTraining.Demo1_TestNG_DataProvider@3f6b0be5]" started-at="2024-08-21T17:25:27 IST" name="test1" data-provider="tdata" finished-at="2024-08-21T17:25:27 IST" duration-ms="149" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test02 -->
+        <test-method signature="test03()[pri:0, instance:WiproTraining.Demo02_TestNG_Priority@bd4dc25]" started-at="2024-08-22T10:39:05 IST" name="test03" finished-at="2024-08-22T10:39:05 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test1(int)[pri:0, instance:WiproTraining.Demo1_TestNG_DataProvider@3f6b0be5]" started-at="2024-08-21T17:25:27 IST" name="test1" data-provider="tdata" finished-at="2024-08-21T17:25:27 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test1(int)[pri:0, instance:WiproTraining.Demo1_TestNG_DataProvider@3f6b0be5]" started-at="2024-08-21T17:25:27 IST" name="test1" data-provider="tdata" finished-at="2024-08-21T17:25:28 IST" duration-ms="84" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test1(int)[pri:0, instance:WiproTraining.Demo1_TestNG_DataProvider@3f6b0be5]" started-at="2024-08-21T17:25:28 IST" name="test1" data-provider="tdata" finished-at="2024-08-21T17:25:28 IST" duration-ms="31" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[86]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- WiproTraining.Demo1_TestNG_DataProvider -->
+        </test-method> <!-- test03 -->
+      </class> <!-- WiproTraining.Demo02_TestNG_Priority -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
