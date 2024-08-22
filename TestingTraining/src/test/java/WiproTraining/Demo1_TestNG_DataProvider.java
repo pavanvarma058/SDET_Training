@@ -1,5 +1,6 @@
 package WiproTraining;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,6 +12,21 @@ public class Demo1_TestNG_DataProvider {
 	@Test (dataProvider = "tdata")
 	public void test1(int n) {
 		System.out.println("value of n= " + n);
+	}
+	
+	@Test (dataProvider = "stest")
+	public void sumTest(int a, int b, int sum) {
+		Assert.assertEquals(a+b, sum);	
+	}
+	
+	@DataProvider (name="stest")
+	public Integer[][] sumData(){
+		Integer[][] arr = {
+				{1,2,3},
+				{4,5,9},
+				{10,20,30}
+		};
+		return arr;
 	}
 	
 	// we can provide input test data to the test case using DataProvider
