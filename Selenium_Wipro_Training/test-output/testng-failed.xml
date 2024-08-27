@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="edge"/>
+  <parameter name="url" value="https://www.saucedemo.com/"/>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="day11.ResizingBrowserDemo">
+      <class name="day11.SwagLabLoginTester">
         <methods>
-          <include name="launchBrowserTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- day11.ResizingBrowserDemo -->
+      </class> <!-- day11.SwagLabLoginTester -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
