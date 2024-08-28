@@ -2,11 +2,11 @@
 <suite name="Suite">
 
 <parameter name="browser" value="edge"></parameter>
-<parameter name="url" value="https://www.saucedemo.com/"></parameter>
+<parameter name="url" value="https://selenium08.blogspot.com/2019/07/alert-test.html"></parameter>
 
   <test thread-count="5" name="Test">
   	<classes>
-  		<class name="day11.SwagLabLoginTester"/>
+  		<class name="day11.PromptBoxTester"/>
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
