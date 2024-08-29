@@ -49,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Booking_Website_Automation_Testing_Project"/>
 			<item value="Selenium_Wipro_Training"/>
 			<item value="Cucumber_Training"/>
 			<item value="JDBCTraining"/>
